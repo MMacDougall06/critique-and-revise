@@ -1,0 +1,85 @@
+t 1.6450881958007812e-05 q Is clementine pith highly sought after?
+t 119.03245115280151 q Did Donald Trump come up with the idea for the New York Harbor?
+t 250.35048294067383 q Were Jackson Pollock's parents not required to say The Pledge of Allegiance as children?
+t 362.3513123989105 q Does Nigella Lawson care about solubility?
+t 485.64052844047546 q Could Rich and Morty be triggered for children of alcoholics?
+t 612.4426836967468 q Did a Mediterranean Sea creature kill Steve Irwin?
+t 708.0739009380341 q Was John Lennon known to be a good friend to Sasha Obama?
+t 791.5271725654602 q Should children be kept from "special brownies"?
+t 899.1724534034729 q Could Buzz Aldrin have owned a computer?
+t 1010.3058586120605 q Are some types of pancakes named after coins?
+t 1108.3110840320587 q Was the son of Tsar Nicholas a daredevil?
+t 1200.2144095897675 q Are twins always born during the same year?
+t 1305.8004009723663 q Was Charles Manson's body unwanted?
+t 1406.5015807151794 q Did the Coen brothers ever collaborate with the Brothers Grimm?
+t 1499.2234287261963 q Did a gladiator kill his opponent with a shotgun?
+t 1597.9873731136322 q Is Michael an unpopular name in the United States?
+t 1684.9755082130432 q Do human sacrums have more fused vertebrae than an Alaskan Malamute?
+t 1787.7362649440765 q Did the phone Alexander Graham Bell use have call waiting?
+t 1862.0251216888428 q Could Lil Wayne legally operate a vehicle on his own at the beginning of his career?
+t 1948.5188579559326 q Did DARPA influence Albert Einstein? 
+t 2055.3013575077057 q Could the Atlantic readers fill 500 battalions?
+t 2139.488077878952 q Did Jon Brower Minnoch suffer from anorexia nervosa?
+t 2230.3551228046417 q Can you fit every resident of Auburn, New York, in Tropicana Field?
+t 2302.179484128952 q Can Poland Spring make money in the Sahara?
+t 2430.994869709015 q Will The Exorcist stimulate limbic system?
+t 2542.181548833847 q Do depressed people travel to the Golden Gate Bridge often?
+t 2628.468422651291 q Is a pound sterling valuable?
+t 2739.7343010902405 q Would eliminating competition in the Japanese bulk carrier market be profitable for a steel company?
+t 2857.3311855793 q Has the creator of Futurama lived in multiple centuries?
+t 2943.7886776924133 q Did the Gunpowder plot eliminate Mary, Queen of Scots bloodline?
+t 3035.6972603797913 q Is Sirius part of a constellation of an animal?
+t 3096.654398918152 q Would Cuba Libre consumption help with insomnia?
+t 3206.21506524086 q Do all shooting sports involve bullets?
+t 3274.919902563095 q Would Hannah Nixon be proud of Richard Nixon following the Watergate scandal?
+t 3400.7317452430725 q Did the original lead guitarist of Metallica fail after parting from the band?
+t 3507.760768890381 q Could Oprah Winfrey buy dozens of her staff Bugatti luxury cars?
+OpenAI error, count 1
+Traceback (most recent call last):
+  File "/home/user/anaconda3/lib/python3.9/site-packages/openai/api_requestor.py", line 753, in _interpret_response_line
+    data = json.loads(rbody)
+  File "/home/user/anaconda3/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/user/anaconda3/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/user/anaconda3/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/crit-and-rev/main.py", line 98, in complete
+    cur_completion = openai.Completion.create(
+  File "/home/user/anaconda3/lib/python3.9/site-packages/openai/api_resources/completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/home/user/anaconda3/lib/python3.9/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/home/user/anaconda3/lib/python3.9/site-packages/openai/api_requestor.py", line 298, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/home/user/anaconda3/lib/python3.9/site-packages/openai/api_requestor.py", line 700, in _interpret_response
+    self._interpret_response_line(
+  File "/home/user/anaconda3/lib/python3.9/site-packages/openai/api_requestor.py", line 755, in _interpret_response_line
+    raise error.APIError(
+openai.error.APIError: HTTP code 502 from API (<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+)
+t 3612.3281230926514 q Can preventive healthcare reduce STI transmission?
+t 3708.6732788085938 q Is Pan a symbol of virtue and virginity in women?
+t 3784.838649749756 q Would Firefighters be included in a September 11th memorial?
+t 3876.830989599228 q Is it okay to lie after taking an oath in a court of law?
+t 3975.7645931243896 q Would a week be enough time to watch every episode of Ugly Betty?
+t 4077.7540893554688 q Would Harvey Milk have approved of Obama?
+t 4176.070524215698 q Has Ringo Starr been in a relatively large number of bands?
+t 4280.816618442535 q Is average number of peas in a pod enough commas for a billion?
+t 4357.66636300087 q Can native wolverines be found in Miami?
+t 4437.204089164734 q Does the United States Secretary of State answer the phones for the White House?
+t 4513.130632400513 q Are rainbows devoid of color made by mixing yin and yang colors?
+t 4594.413558244705 q Did pirates who had scurvy need more Vitamin C?
+t 4668.29677772522 q Would you hire someone with dyscalculia to do surveying work?
+t 4767.554345607758 q Is a fever cured by listening to a cowbell?
